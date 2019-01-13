@@ -2,10 +2,12 @@
 
 html {
     display: block;
+    background-size: auto;
+    
 }
 body {
     display: block;
-
+    margin:0px;
 
 }
 ul  {
@@ -42,4 +44,28 @@ li {
     display: block;
  
     text-align: center;
+}
+.footer {
+position: absolute;
+height: 40px;
+width: 100%;
+background:silver;
+bottom: 0px;
+display: inline-block;
+margin: 0px;
+
+}
+.left-footer {
+    position: relative;
+    margin:0px;
+    text-align: left;
+    
+}
+.right-footer {
+ 
+    right: 20px;
+    margin:0px;
+    text-align: right;
+    
+  
 }
