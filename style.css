@@ -58,14 +58,14 @@ margin: 0px;
 font-size:small;
 }
 .left-footer {
-    position: relative;
+  
     margin:0px;
-    text-align: left;
-    
+   /* text-align: left;*/
+    left: -10px;
 }
 .right-footer {
  
-    right: 20px;
+    right: 40px;
     margin:0px;
     text-align: right;
     
